@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto+Slab:wght@300;400&display=swap');
+
+body{
+    background-color: rgba(200, 196, 243, 0.753);
+}
+*{
+
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.form-login{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 20px;
+    top: 20%;
+    left: 32%;      
+    width: 500px;
+    height: 390px;
+    border-radius: 10px;
+    color: white;
+    background-color: #0e1424;
+
+}
+.form-login h1{
+    font-family: 'Dosis', sans-serif;
+}
+.form-login .input-text{
+
+    padding: 5px;
+    width: 80%;
+    
+}
+.boton{
+    background-color: rgba(200, 196, 243, 0.753);
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    color:#0e1424;
+    cursor: pointer;
+}
+.boton_registrar{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.input_form{
+
+    padding: 2px;
+    width: 65%;
+}
+.registropersonal{
+    position: absolute;
+    text-align: center;
+    font-size: 19px;
+    top: 0%;
+    left: 25%;      
+    width: 700px;
+    height: 640px;
+    border-radius: 10px;
+    color: white;
+    background-color: #0e1424;
+}
+.registropersonal h1{
+    font-family: 'Dosis', sans-serif;
+}
+.boton_salir{
+    text-align: justify;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.form-select{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+}

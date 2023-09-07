@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+*{
+
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width:100%;
+    height: 45px;
+    background: rgb(4, 5, 29);
+    z-index: 9999;
+}
+header a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    transition: all 400ms ease;
+    text-align: justify;
+    overflow: hidden;
+
+}
+header a:hover{
+    background-color: #141f3a;
+}
+.user{
+    position: absolute;
+    top: 20%;
+    left: 84%;
+}
+.userout{
+    position: absolute;
+    top: -5%;
+    left: 95.5%;
+}
+.img_title{
+    position: absolute;
+    top: -5%;
+    left: 14.2%;
+}
+/* Barra Lateral */
+
+
+.container-menu{
+
+    position: fixed;
+    top: 0px;
+    left: -30px;
+    right: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    width: 220px;
+    height: 100%;
+    background:rgb(4, 5, 29);
+
+}
+
+.list-bar li{
+    list-style: none;
+}
+.list-bar a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+    text-align: justify;
+    overflow: hidden;
+}
+.list-bar a:hover{
+    border-left: 5px solid #ece8e8;
+    background-color: #141f3a;
+}
+.container_registro{
+    position: absolute;
+    top: 8%;
+    left: 16%;
+    width: 1100px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif; 
+}
+.form-select{
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 14%;
+}
+.vender_prod{
+    color:#ece8e8;
+    position: absolute;
+    font-size: 16px;
+    top: 130%;
+    left: 41%;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    background-color:#141f3a;
+}
+.nombre-cliente{
+    position: absolute;
+    top: 38%;
+    left: 14%;
+    width: 300px;
+    height: 35px;
+}
+.label-telefono{
+    position: absolute;
+    top: 38%;
+    left: 52%;
+}
+.telefono-cliente{
+    position: absolute;
+    top: 37%;
+    left: 70%;
+    width: 300px;
+    height: 35px;
+}
+.label-precio{
+    position: absolute;
+    top: 60%;
+    left: 52%;
+}
+.precio-producto{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    width: 300px;
+    height: 35px;
+}
+.cantidad-producto{
+    position: absolute;
+    top: 83%;
+    left: 14%;
+    width: 300px;
+    height: 35px;
+}
+.label-vendedor{
+    position: absolute;
+    top: 84%;
+    left: 52%;
+}
+.label-mdp{
+    position: absolute;
+    top: 108%;
+    left: 0%;
+}
+#form-select2{
+    width: 300px;
+    position: absolute;
+    top: 108%;
+    left: 14%;
+}
+.vendedor{
+    position: absolute;
+    top: 83%;
+    left: 70%;
+    width: 300px;
+    height: 35px;
+}

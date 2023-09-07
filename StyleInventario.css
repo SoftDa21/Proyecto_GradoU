@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+*{
+
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Comienzo del Header*/
+
+header{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 45px;
+    background: rgb(4, 5, 29);
+    z-index: 999;
+}
+header a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    transition: all 400ms ease;
+    text-align: justify;
+    overflow: hidden;
+
+}
+header a:hover{
+    background-color: #141f3a;
+}
+.user{
+    position: absolute;
+    top: 20%;
+    left: 84%;
+}
+.userout{
+    position: absolute;
+    top: -5%;
+    left: 95.5%;
+}
+
+/* Fin del Header */
+
+/* Barra Lateral */
+
+.container-menu{
+
+    position: fixed;
+    padding: 0;
+    top: 0px;
+    left: -30px;
+    right: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    width: 220px;
+    height: 100%;
+    background:rgb(4, 5, 29);
+
+}
+.list-bar li{
+    list-style: none;
+}
+.list-bar a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    top: 0;
+    left: 10px;
+    right: 0;
+    padding: 15px;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+    text-align: justify;
+    overflow: hidden;
+}
+.list-bar a:hover{
+    border-left: 5px solid #ece8e8;
+    background-color: #141f3a;
+}
+
+/* Fin Barra Lateral */
+
+/* Estilo contenido Página Web */
+
+.container_inventario{
+
+    position: absolute;
+    display: inline-block;
+    top: 8%;
+    left: 12.5%;
+    width: 1160px;
+    padding-left: 35px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.btn-pdf{
+    color: #ece8e8;
+    position: absolute;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    font-size: 16px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* Fin Estilo contenido Página Web */
